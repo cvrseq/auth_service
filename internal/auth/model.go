@@ -15,7 +15,7 @@ type UserCredential struct {
 type RefreshSession struct { 
 	ID int `json:"id"`
 	UserID int `json:"user_id"`
-	Token string `json:"token"`
+	Token string `json:"token"` // need for extend the session
 	CreatedAt time.Time `json:"created_at"`
 	UpdatedAt time.Time `json:"updated_at"`
 }
